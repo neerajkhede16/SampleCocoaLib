@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '12.0'
-s.name = "TestCocoaPods"
-s.summary = "TestCocoaPods lets a user select an ice cream flavor."
+s.name = "SampleCocoaLib"
+s.summary = "SampleCocoaLib lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
@@ -17,10 +17,10 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Neeraj Khede" => "neerajkhede16@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/neerajkhede16/TestCocoaPods"
+s.homepage = "https://github.com/neerajkhede16/SampleCocoaLib"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/neerajkhede16/TestCocoaPods.git",
+s.source = { :git => "https://github.com/neerajkhede16/SampleCocoaLib.git",
 :tag => "#{s.version}" }
 
 # 7
@@ -29,10 +29,10 @@ s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "TestCocoaPods/**/*.{swift}"
+s.source_files = "SampleCocoaLib/**/*.{swift}"
 
 # 9
-s.resources = "TestCocoaPods/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "SampleCocoaLib/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
